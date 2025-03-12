@@ -12,18 +12,18 @@ namespace BubbleSort
         {
             int[] vetor = { 26, 65, 45, 73, 10, 18, 78, 93, 70, 49, 23, 22 };
 
-            void BubbleSort(int[] array)
+            void BubbleSort(int[] numeros)
             {
-                int n = array.Length;
+                int n = numeros.Length;
                 for (int i = 0; i < n - 1; i++)
                 {
                     for (int j = 0; j < n - i - 1; j++)
                     {
-                        if (array[j] > array[j + 1])
+                        if (numeros[j] > numeros[j + 1])
                         {
-                            int temp = array[j];
-                            array[j] = array[j + 1];
-                            array[j + 1] = temp;
+                            int temp = numeros[j];
+                            numeros[j] = numeros[j + 1];
+                            numeros[j + 1] = temp;
                         }
                     }
                 }

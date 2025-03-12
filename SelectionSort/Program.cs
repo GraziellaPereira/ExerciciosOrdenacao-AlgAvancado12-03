@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BubbleSelection
+namespace SelectionSort
+{ 
     internal class Program
     {
         static void Main(string[] args)
